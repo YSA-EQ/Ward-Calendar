@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Public Google Calendar</title>
+    <title>YSA 10th Ward Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        iframe {
+            border: 2px solid #2c3e50;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>YSA 10th Ward Calendar</h1>
-    <iframe src="https://calendar.google.com/calendar/embed?src=ysa.10th.ward.org%40gmail.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="container">
+        <h1>YSA 10th Ward Calendar</h1>
+        <iframe src="https://calendar.google.com/calendar/embed?src=ysa.10th.ward.org%40gmail.com&ctz=America%2FDenver" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
 </body>
 </html>
